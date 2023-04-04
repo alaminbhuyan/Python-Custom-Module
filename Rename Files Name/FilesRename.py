@@ -21,8 +21,7 @@ def rename_files(path:str, new_img_name):
     except Exception as e:
         print("Opps!! ", e)
         print("Please enter the valid path!!")
-    finally:
-        print("Execuation completed")
+
 
 if __name__ == "__main__":
     rename_files(path="C:\\Users\\alami\\Downloads\\New folder", new_img_name="BangladeshFlag")
